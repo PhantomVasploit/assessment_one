@@ -26,6 +26,7 @@ button{
     padding: 20px;
     background-color: hsl(26, 100%, 55%);
     color: hsl(0, 0%, 100%);
+    border-radius: 20px;
 }
 
 .nav-section{
@@ -93,11 +94,19 @@ button{
     padding: 20px;
 }
 
-.info h6{ 
+.info h4{ 
     color: hsl(26, 100%, 55%);
     padding: 20px;
 }
+
+.info h3{
+    padding: 20px;
+}
 .info p{
+    padding: 20px;
+}
+
+.info .priceInfo{
     padding: 20px;
 }
 
@@ -121,9 +130,6 @@ button{
     justify-content: space-around;
 }
 
-.thumbnails{
-
-}
 
 .selected{
     border: 1px solid hsl(26, 100%, 55%);
