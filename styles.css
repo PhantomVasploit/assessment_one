@@ -7,5 +7,124 @@
 
 body{
     font-family: 'Kumbh Sans', sans-serif;
-    White: hsl(0, 0%, 100%)
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+section > .nav{
+    display: flex;
+
+}
+
+.stale-price{
+    text-decoration: line-through;
+}
+
+button{
+    padding: 20px;
+    background-color: hsl(26, 100%, 55%);
+    color: hsl(0, 0%, 100%);
+}
+
+.nav-section{
+    /* border: 3px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-section h4{
+    padding: 20px;
+}
+
+.nav-section .nav-links{
+    display: flex;
+    padding: 20px;
+    gap: 20px
+}
+
+.nav-section .nav-profile{
+    padding: 20px;
+}
+
+.nav-profile img{
+    border-radius: 50%;
+}
+
+
+.content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.content .images{
+    display: flex;
+    flex-direction: column;
+    width: 40rem;
+    height: 80vh;
+    align-items: center;
+    gap: 20px
+}
+
+.images .thumbnails{
+    margin-left: 150px;
+}
+
+.main > img{
+    border-radius: 10px;
+    width: 100%;
+    margin-left: 150px;
+}
+
+.content .info{
+    margin-left: 150px;
+}
+
+.content .thumbnails{
+    display: flex;
+    gap: 20px;
+}
+
+.info{
+    padding: 20px;
+}
+
+.info h6{ 
+    color: hsl(26, 100%, 55%);
+    padding: 20px;
+}
+.info p{
+    padding: 20px;
+}
+
+.info .percentage{
+    background-color: hsl(25, 100%, 94%);
+    color: hsl(26, 100%, 55%);
+    width: 2rem;
+}
+
+.info .price{
+    display: flex;
+    flex-direction: column;
+}
+
+.info .priceInfo{
+    display: flex;
+}
+
+.cart-section{
+    display: flex;
+    justify-content: space-around;
+}
+
+.thumbnails{
+
+}
+
+.selected{
+    border: 1px solid hsl(26, 100%, 55%);
+    border-radius: 10px;
 }
