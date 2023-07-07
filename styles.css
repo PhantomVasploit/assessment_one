@@ -58,6 +58,7 @@ button{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-top: 50px;
 }
 
 .content .images{
@@ -69,7 +70,7 @@ button{
     gap: 20px
 }
 
-.images .thumbnails{
+.images .thumbnails {
     margin-left: 150px;
 }
 
@@ -127,4 +128,5 @@ button{
 .selected{
     border: 1px solid hsl(26, 100%, 55%);
     border-radius: 10px;
+    opacity: .4;
 }
